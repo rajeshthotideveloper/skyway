@@ -1,0 +1,3 @@
+import { Link } from "react-router-dom";
+import { Compass } from "lucide-react";
+export default function NotFound() { return <section className="grid min-h-[70vh] place-items-center bg-slate-50 px-4 py-20 text-center"><div><span className="mx-auto grid h-14 w-14 place-items-center rounded-2xl bg-brand-100 text-brand-700"><Compass className="h-7 w-7" /></span><h1 className="mt-6 text-4xl font-black">Page not found</h1><p className="mt-3 text-slate-600">The page you are looking for does not exist.</p><Link to="/" className="mt-6 inline-flex rounded-xl bg-brand-600 px-5 py-3 text-sm font-bold text-white hover:bg-brand-700">Back to home</Link></div></section>; }
