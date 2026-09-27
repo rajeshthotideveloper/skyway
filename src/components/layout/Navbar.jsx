@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import {
@@ -12,6 +13,7 @@ const links = [
   { label: "Home", to: "/" },
   { label: "Destinations", to: "/destinations" },
   { label: "Packages", to: "/packages" },
+  { label: "Gallery", to: "/gallery" },
   { label: "About", to: "/about" },
   { label: "Contact", to: "/contact" },
 ];
@@ -100,7 +102,9 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setOpen((value) => !value)}
-            aria-label={open ? "Close navigation menu" : "Open navigation menu"}
+            aria-label={
+              open ? "Close navigation menu" : "Open navigation menu"
+            }
             aria-expanded={open}
             aria-controls="mobile-navigation"
             className="grid h-10 w-10 place-items-center rounded-xl border border-slate-200 bg-white text-slate-700 transition hover:border-brand-200 hover:bg-brand-50 hover:text-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-500/30 lg:hidden"

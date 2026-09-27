@@ -20,7 +20,7 @@ export default function Destinations() {
       <section className="relative min-h-[68vh] overflow-hidden bg-slate-950">
         {/* Background Image */}
         <img
-          src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2200&q=90"
+          src="https://www.swantour.com/blogs/wp-content/uploads/2018/05/Croatia-1.jpg"
           alt="Beautiful travel destination"
           className="absolute inset-0 h-full w-full object-cover"
         />

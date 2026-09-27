@@ -21,6 +21,10 @@ const Packages = lazy(
   () => import("./pages/Packages")
 );
 
+const Gallery = lazy(
+  () => import("./pages/Gallery")
+);
+
 const PackageDetails = lazy(
   () => import("./pages/PackageDetails")
 );
@@ -74,6 +78,12 @@ export default function App() {
             <Route
               path="/packages"
               element={<Packages />}
+            />
+
+            {/* Gallery */}
+            <Route
+              path="/gallery"
+              element={<Gallery />}
             />
 
             {/* Package Details */}
