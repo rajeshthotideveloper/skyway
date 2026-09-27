@@ -48,7 +48,7 @@ export default function PageLoader() {
         {/* Brand */}
         <div className="mt-7 text-center">
           <h1 className="text-2xl font-black tracking-[0.18em] text-white">
-            SKYWAY
+            MADHU
           </h1>
 
           <p className="mt-2 text-[10px] font-bold uppercase tracking-[0.3em] text-blue-300">
