@@ -239,7 +239,7 @@ export default function DestinationDetails() {
                   className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/10 px-5 py-3 text-sm font-bold text-white backdrop-blur transition hover:bg-white/20"
                 >
                   <Phone className="h-4 w-4" />
-                  +91 98765 43210
+                  +91 7013304406
                 </a>
               </div>
             </div>

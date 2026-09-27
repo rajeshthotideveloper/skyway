@@ -154,7 +154,7 @@ export default function Footer() {
                   <Phone className="h-4 w-4" />
                 </span>
 
-                <span className="pt-1">+91 98765 43210</span>
+                <span className="pt-1">+91 7013304406</span>
               </a>
 
               {/* Email */}
@@ -167,7 +167,7 @@ export default function Footer() {
                 </span>
 
                 <span className="break-all pt-1">
-                  hello@skywaytravels.com
+                  hello@madhutravels.com
                 </span>
               </a>
 
@@ -192,7 +192,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container-page flex flex-col gap-3 py-5 text-center text-xs text-blue-200 sm:flex-row sm:items-center sm:justify-between sm:text-left">
           <p>
-            © {new Date().getFullYear()} SkyWay Tours & Travels. All rights
+            © {new Date().getFullYear()} Madhu Tours & Travels. All rights
             reserved.
           </p>
 

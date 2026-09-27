@@ -94,7 +94,7 @@ export default function Navbar() {
               className="ml-8 inline-flex items-center gap-2 rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-bold text-white shadow-lg shadow-brand-600/20 transition duration-200 hover:bg-brand-700 hover:shadow-xl hover:shadow-brand-600/25 xl:px-5"
             >
               <Phone className="h-4 w-4" />
-              <span>+91 98765 43210</span>
+              <span>+91 7013304406</span>
             </a>
           </div>
 

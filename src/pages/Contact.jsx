@@ -299,15 +299,15 @@ export default function Contact() {
                   <ContactItem
                     icon={Phone}
                     title="Phone"
-                    value="+91 98765 43210"
-                    href="tel:+919876543210"
+                    value="+91 7013304406"
+                    href="tel:+917013304406"
                   />
 
                   <ContactItem
                     icon={Mail}
                     title="Email"
-                    value="hello@skywaytravels.com"
-                    href="mailto:hello@skywaytravels.com"
+                    value="hello@madhutravels.com"
+                    href="mailto:hello@madhutravels.com"
                   />
 
                   <ContactItem
@@ -410,7 +410,7 @@ export default function Contact() {
                     label="Phone number"
                     name="phone"
                     type="tel"
-                    placeholder="+91 98765 43210"
+                    placeholder="+91 7013304406"
                   />
 
                   <Field
@@ -424,7 +424,7 @@ export default function Contact() {
                     label="Preferred destination"
                     name="destination"
                     type="text"
-                    placeholder="e.g. Kashmir"
+                    placeholder="e.g. Tirupati"
                   />
                 </div>
 

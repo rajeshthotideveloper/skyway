@@ -19,52 +19,53 @@ import Button from "../common/Button";
 const slides = [
   {
     id: 1,
-    title: "Kashmir",
-    subtitle: "Paradise in the Himalayas",
+    title: "Tirumala Temple",
+    subtitle: "Sacred abode of Lord Venkateswara",
     description:
-      "Snow-covered mountains, peaceful lakes and breathtaking valley views.",
+      "Experience spiritual peace at the iconic golden gopuram in Seshachalam Hills.",
     image:
-      "https://s7ap1.scene7.com/is/image/incredibleindia/1-patnitop-jammu-city-hero?qlt=82&ts=1726729003276",
+      "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&w=2200&q=90",
   },
   {
     id: 2,
-    title: "Bali",
-    subtitle: "Island of unforgettable moments",
+    title: "Kapila Theertham",
+    subtitle: "Serene waterfalls & ancient Shiva shrine",
     description:
-      "Discover tropical beaches, ancient temples and beautiful island experiences.",
+      "Witness pristine natural waterfalls cascading down lush, sacred hill slopes.",
     image:
-      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=2200&q=90",
+      "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2200&q=90",
   },
   {
     id: 3,
-    title: "Dubai",
-    subtitle: "Luxury meets adventure",
+    title: "Seshachalam Hills",
+    subtitle: "Vast biosphere & scenic valleys",
     description:
-      "Experience iconic skylines, desert adventures and world-class attractions.",
+      "Explore winding hill roads, rich flora, and majestic mountain views.",
     image:
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=2200&q=90",
+      "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=2200&q=90",
   },
   {
     id: 4,
-    title: "Maldives",
-    subtitle: "Escape to paradise",
+    title: "Chandragiri Fort",
+    subtitle: "Heritage & royal Vijayanagara architecture",
     description:
-      "Crystal-clear waters, white sandy beaches and unforgettable island stays.",
+      "Step back in time to explore historic palaces, ancient stone walls, and lush grounds.",
     image:
-      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=2200&q=90",
+      "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=2200&q=90",
   },
   {
     id: 5,
-    title: "Switzerland",
-    subtitle: "Where nature meets perfection",
+    title: "Sri Kalahasti",
+    subtitle: "Spiritual marvel near Tirupati",
     description:
-      "Snowy peaks, scenic rail journeys and picture-perfect alpine villages.",
+      "Marvel at breathtaking temple architecture along the banks of Swarnamukhi River.",
     image:
-      "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=2200&q=90",
+      "https://images.unsplash.com/photo-1627894483216-2138af692e32?auto=format&fit=crop&w=2200&q=90",
   },
 ];
 
 const destinations = [
+  "Tirupati",
   "Kashmir",
   "Bali",
   "Dubai",
@@ -253,7 +254,7 @@ export default function Hero() {
               packages and reliable travel support for every journey.
             </p>
 
-            {/* CTA Buttons (Hidden on mobile and tablet, visible on desktop) */}
+            {/* CTA Buttons */}
             <div className="hidden lg:mt-8 lg:flex lg:flex-row lg:items-center lg:gap-3">
               <Button to="/packages" variant="light">
                 Explore Packages
@@ -334,7 +335,7 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* FUNCTIONAL SEARCH PANEL (Glassmorphic) */}
+          {/* FUNCTIONAL SEARCH PANEL */}
           <div className="rounded-2xl border border-white/20 bg-black/40 p-3 text-white shadow-2xl shadow-black/50 backdrop-blur-xl sm:p-4">
             <div className="grid gap-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1fr_auto]">
               
@@ -601,7 +602,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* SIDE SLIDE COUNTER (HIDDEN ON MOBILE/TABLET) */}
+      {/* SIDE SLIDE COUNTER */}
       <div className="absolute right-6 top-1/2 z-20 hidden -translate-y-1/2 lg:block">
         <div className="flex flex-col items-center gap-3">
           <span className="text-xs font-bold text-white/50">
