@@ -60,7 +60,7 @@ export default function Footer() {
 
               <span className="leading-none">
                 <span className="block text-lg font-extrabold tracking-tight">
-                  SkyWay
+                  Madhu
                 </span>
 
                 <span className="mt-1 block text-[9px] font-bold uppercase tracking-[0.22em] text-blue-200">

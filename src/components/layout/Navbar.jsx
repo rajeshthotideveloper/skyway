@@ -52,7 +52,7 @@ export default function Navbar() {
 
             <span className="leading-none">
               <span className="block text-base font-extrabold tracking-tight text-slate-900 sm:text-lg lg:text-xl">
-                SkyWay
+                Madhu
               </span>
 
               <span className="mt-1 block text-[9px] font-bold uppercase tracking-[0.22em] text-brand-600 sm:text-[10px]">
